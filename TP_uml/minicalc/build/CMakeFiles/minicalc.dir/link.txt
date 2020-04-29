@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -Wall -Wextra  -rdynamic CMakeFiles/minicalc.dir/src/main.cpp.o CMakeFiles/minicalc.dir/src/Expr.cpp.o  -o minicalc 

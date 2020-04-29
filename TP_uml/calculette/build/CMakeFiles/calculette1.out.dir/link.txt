@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -Wall -Wextra -g  -rdynamic CMakeFiles/calculette1.out.dir/src/calculette1.cpp.o  -o calculette1.out 

@@ -1,0 +1,3 @@
+ligne 1 de tata.txt
+ligne 2 de tata.txt
+ligne 3 de tata.txt

@@ -1,0 +1,19 @@
+# crée et déploie une page web à une URL : https://<user>.gitlab.io/<repo>
+pages:
+    # c'est une étape de Deploy dans le pipeline
+    stage: deploy
+    # il faut partir d'un conteneur docker "debian"
+    image: debian
+    # on installe les paquets nécessaires dans le conteneur 
+    before_script:
+        - apt-get -y update
+        - apt-get -y install build-essential
+    # on lance ces commandes pour réaliser l'étape courante
+    script:
+        - mkdir -p public
+        - cp index.html public/
+    # on demande de conserver le dossier "public" (qui sera automatiquement déployé)
+    artifacts:
+        paths:
+            - public
+

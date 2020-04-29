@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="minicalc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minicalc">
+				<Option output="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/minicalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 minicalc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minicalc/fast">
+				<Option output="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/minicalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 minicalc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/build-minicalc-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr-tests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr.cpp">
+			<Option target="minicalc"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr.hpp">
+			<Option target="minicalc"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/main.cpp">
+			<Option target="minicalc"/>
+		</Unit>
+		<Unit filename="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/test.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

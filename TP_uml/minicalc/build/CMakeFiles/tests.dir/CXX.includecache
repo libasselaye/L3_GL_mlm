@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr-tests.cpp
+Expr.hpp
+/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr.hpp
+CppUTest/CommandLineTestRunner.h
+-
+
+/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr.cpp
+Expr.hpp
+/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr.hpp
+sstream
+-
+
+/home/libasse/TP_LG/L3_GL_etudiant/TP_uml/minicalc/src/Expr.hpp
+string
+-
+iostream
+-
+sstream
+-
+

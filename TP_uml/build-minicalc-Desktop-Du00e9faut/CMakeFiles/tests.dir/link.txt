@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++14 -Wall -Wextra  -rdynamic CMakeFiles/tests.dir/src/test.cpp.o CMakeFiles/tests.dir/src/Expr-tests.cpp.o CMakeFiles/tests.dir/src/Expr.cpp.o  -o tests -lstdc++ -lCppUTest -lCppUTestExt 
