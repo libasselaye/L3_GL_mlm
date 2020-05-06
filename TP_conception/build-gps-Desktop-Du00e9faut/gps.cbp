@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gps"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests.out">
+				<Option output="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/tests.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tests.out"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests.out/fast">
+				<Option output="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/tests.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 tests.out/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gps.out">
+				<Option output="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/gps.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 gps.out"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gps.out/fast">
+				<Option output="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/gps.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 gps.out/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Chemin.cpp">
+			<Option target="tests.out"/>
+			<Option target="gps.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Chemin.hpp">
+			<Option target="tests.out"/>
+			<Option target="gps.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Chemin_test.cpp">
+			<Option target="tests.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Route.cpp">
+			<Option target="tests.out"/>
+			<Option target="gps.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Route.hpp">
+			<Option target="tests.out"/>
+			<Option target="gps.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Route_test.cpp">
+			<Option target="tests.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/gps.cpp">
+			<Option target="gps.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/src/tests.cpp">
+			<Option target="tests.out"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/libasse/l3_gl_etudiant/TP_conception/gps/Doxyfile.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -13,6 +13,10 @@ using namespace std;
 
 int main(int argc, char ** argv) {
 
+    /*Chemin test;
+    std::ifstream ifs (argv[1]);
+    test.importerCsv(ifs);*/
+
     if (argc != 5) {
         cerr << "usage: " << argv[0] 
             << " <input csv> <output dot> <city1> <city2>\n";
@@ -20,6 +24,12 @@ int main(int argc, char ** argv) {
     }
 
     try {
+        Chemin c;
+        std::ifstream ifs (argv[1]);
+        c.importerCsv(ifs);
+        std::ofstream ofs(argv[2]);
+        c.exporterDot(ofs,argv[3],argv[4]);
+
 
         // TODO importer le fichier CSV
 

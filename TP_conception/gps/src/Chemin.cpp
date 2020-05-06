@@ -71,15 +71,33 @@ void Chemin::partitionner(const string & ville, Chemin & cheminAvec,
 }
 
 void Chemin::importerCsv(istream & is) {
+    std::string line;
+    while (std::getline(is, line)) {
+        try {
+            std::istringstream iss(line);
+            std::string v1,v2;
+            string d;
+            std::getline(iss,v1,' ');
+            std::getline(iss,v2,' ');
+            std::getline(iss,d);
+            //iss >>d; //si l'on prend d en int
 
+            routes_.push_back({v1,v2, stoi(d) });
+        } catch (...) {}
+    }
     // TODO
-
 }
 
 void Chemin::exporterDot(ostream & os, const string & ville1, 
         const string & ville2) const {
+   os << "graph { " << std::endl;
 
-    // TODO
+   for (const Route &r: routes_) {
+       os << "  " << r.villeA_ << " -- " << r.villeB_
+          << " [label=" << r.distance_<< " ];\n";
+   }
+  // Douarnenez -- Plomelin [label=25];
+   os << "}" << std::endl;
 
 }
 

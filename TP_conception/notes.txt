@@ -1,0 +1,22 @@
+- problème:
+routes villes distance chemin
+
+- entrées:
+listing de routes -> au format CSV
+
+- sorties:
+villes , routes , distances , plus court chemin -> au format dot
+
+- contraintes:
+entrées en CSV
+sorties en DOT
+nombre de villes < 10 -> brute force ok
+
+- fonctionnalités:
+importer CSV
+calculer plus court chemin
+export DOT
+
+- priorités:
+1. import/export
+2. cacul/affichage du plus court chemin

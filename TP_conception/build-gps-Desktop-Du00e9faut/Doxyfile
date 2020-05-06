@@ -1,0 +1,12 @@
+PROJECT_NAME           = gps
+OUTPUT_DIRECTORY       = /home/libasse/l3_gl_etudiant/TP_conception/build-gps-Desktop-Du00e9faut/doc/
+INPUT                  = /home/libasse/l3_gl_etudiant/TP_conception/gps/src
+EXTRACT_ALL            = YES
+RECURSIVE              = YES
+OUTPUT_LANGUAGE        = French
+GENERATE_BUGLIST       = YES
+GENERATE_TODOLIST      = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+FULL_PATH_NAMES        = NO
+

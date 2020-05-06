@@ -1,0 +1,8 @@
+graph { 
+  Douarnenez -- Pouldreuzic [label=17 ];
+  Douarnenez -- Plomelin [label=25 ];
+  Plouneour -- Pouldreuzic [label=9 ];
+  Plouneour -- Plomelin [label=11 ];
+  LaTorche -- Plomelin [label=20 ];
+  LaTorche -- Plouneour [label=10 ];
+}

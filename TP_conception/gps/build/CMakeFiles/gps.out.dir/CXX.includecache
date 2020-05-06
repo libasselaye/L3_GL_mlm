@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Chemin.cpp
+Chemin.hpp
+/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Chemin.hpp
+limits
+-
+queue
+-
+sstream
+-
+
+/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Chemin.hpp
+Route.hpp
+/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Route.hpp
+iostream
+-
+vector
+-
+
+/home/libasse/l3_gl_etudiant/TP_conception/gps/src/Route.hpp
+string
+-
+

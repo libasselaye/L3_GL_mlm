@@ -21,7 +21,7 @@ class Chemin_test_ : public Chemin {
             CHECK_EQUAL("toto", c.routes_.back().villeA_);
         }
 
-        void exporterDot_0() { 
+        void exporterDot_0() {
             try {
                 Chemin_test_ c;
                 std::ostringstream oss;
@@ -32,10 +32,9 @@ class Chemin_test_ : public Chemin {
                 CHECK_EQUAL("Chemin::calculerPlusCourt : routes_.empty()", msg);
             }
         }
-
 };
 
 TEST_GROUP(GroupChemin) { };
 TEST(GroupChemin, importerCsv_0) { Chemin_test_().importerCsv_0(); }
-TEST(GroupChemin, exporterDot_0) { Chemin_test_().exporterDot_0(); }
+//TEST(GroupChemin, exporterDot_0) { Chemin_test_().exporterDot_0(); }
 
